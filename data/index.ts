@@ -11,6 +11,17 @@ import development from "../app/assets/service-development.svg";
 import experience from "../app/assets/Users.svg";
 import smiley from "../app/assets/Smiley.svg";
 import project from "../app/assets/Briefcase.svg";
+import project1 from "../app/assets/image 18.png";
+import project2 from "../app/assets/image 17.png";
+import project3 from "../app/assets/image 18-1.png";
+import project4 from "../app/assets/image 18-2.png";
+import project5 from "../app/assets/image 18-3.png";
+import project6 from "../app/assets/image 18-4.png";
+import project7 from "../app/assets/image 18-5.png";
+import project8 from "../app/assets/image 18-8.png";
+import project9 from "../app/assets/image 18-9.png";
+import project10 from "../app/assets/image 18-6.png";
+import project11 from "../app/assets/image 18-7.png";
 
 export const navItems = [
   { name: "Home", link: "" },
@@ -120,4 +131,91 @@ export const numbersAndDetails = [
 
 export const teamMembers = [];
 
-export const projects = [];
+export const projects = [
+  {
+    id: 1,
+    title: "Dashboard - HR system",
+    description: "Web Application",
+    image: project1,
+    // fullImg: project1_full,
+  },
+  {
+    id: 2,
+    title: "Restaurant Mobile App",
+    description: "Mobile App",
+    image: project2,
+    // fullImg: project2_full,
+  },
+  {
+    id: 3,
+    title: "Hi Community",
+    description: "UI/UX Design",
+    image: project3,
+    // fullImg: project3_full,
+  },
+  {
+    id: 4,
+    title: "E-commerce",
+    description: "Mobile App",
+    image: project4,
+    // fullImg: project4_full,
+  },
+  {
+    id: 5,
+    title: "internship opportunity - AI",
+    description: "Mobile App",
+    image: project5,
+    // fullImg: project5_full,
+  },
+  {
+    id: 6,
+    title: "Dashboard - LibyaZon",
+    description: "Web application",
+    image: project6,
+    // fullImg: project6_full,
+  },
+  {
+    id: 7,
+    title: "Online store - Web",
+    description: "Web Application",
+    image: project7,
+    // fullImg: project7_full,
+  },
+  {
+    id: 8,
+    title: "Online store - App",
+    description: "Mobile App",
+    image: project8,
+    // fullImg: project8_full,
+  },
+  {
+    id: 9,
+    title: "Dashboard - E-commerce ",
+    description: "Mobile App",
+    image: project9,
+    // fullImg: project9_full,
+  },
+  {
+    id: 10,
+    title: "Alarm - Pharmacies system",
+    description: "Web Application",
+    image: project10,
+    // fullImg: project10_full,
+  },
+  {
+    id: 11,
+    title: "Dashboard - Suq Aljameuh",
+    description: "Mobile App",
+    image: project11,
+    // fullImg: project11_full,
+    isPrivate: true,
+  },
+  {
+    id: 12,
+    title: "Dashboard - Suq Aljameuh",
+    description: "Mobile App",
+    image: project11,
+    // fullImg: project12_full,
+    isPrivate: true,
+  },
+];

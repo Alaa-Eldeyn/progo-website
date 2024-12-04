@@ -8,6 +8,17 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        hero: "hero 5s infinite linear",
+      },
+      keyframes: {
+        hero: {
+          "0%": { opacity: "0" },
+          "50%": { opacity: "1" },
+          "90%": { opacity: "0" },
+          "100%": { opacity: "0" },
+        },
+      },
       fontFamily: {
         cairo: "Cairo",
       },

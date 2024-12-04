@@ -1,31 +1,15 @@
-"use client";
 import Link from "next/link";
-import HeroBG from "./HeroBG";
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import facebook from "../assets/facebook-4 1.svg";
 import instagram from "../assets/instagram-5 1.svg";
 import linkedin from "../assets/linkedin-icon-2 1.svg";
-
-const colors: string[] = ["#2A2A2A", "#ea4054b7"];
-const INTERVAL_DURATION = 3000;
+import HeroBg from "./HeroBG";
 
 function Hero() {
-  const [color, setColor] = useState<string>(colors[0]);
-
-  useEffect(() => {
-    let currentColorIndex = 0;
-    const interval = setInterval(() => {
-      currentColorIndex = (currentColorIndex + 1) % colors.length;
-      setColor(colors[currentColorIndex]);
-    }, INTERVAL_DURATION);
-
-    return () => clearInterval(interval);
-  }, []);
   return (
-    <section className="relative min-h-[700px] center bg-[#1A1A21]">
-      <HeroBG fill={color} />
-      <div className="text-center container center flex-col space-y-4 lg:mt-4">
+    <section className="relative min-h-[800px] center bg-[#1A1A21] overflow-hidden">
+      <HeroBg />
+      <div className="text-center container center flex-col space-y-4 z-10 lg:mt-4">
         <h1 className=" text-3xl md:text-[40px] font-bold">
           Your Vision, <span className="text-primary">Our Expertise</span>
         </h1>

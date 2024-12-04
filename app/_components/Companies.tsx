@@ -8,7 +8,7 @@ import sec from "../assets/white Logo 1 2.svg";
 
 function Companies() {
   return (
-    <section className="bg-muted py-4 px-8 z-20 -translate-y-12 h-24 center">
+    <section className="bg-muted py-4 px-8 z-20 h-24 center">
       <div className="container center gap-10">
         <Image src={sec} alt="sec" width={150} height={50} />
         <Image src={sk} alt="sk" width={150} height={50} />
