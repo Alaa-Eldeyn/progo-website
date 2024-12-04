@@ -3,21 +3,21 @@ import Image from "next/image";
 import facebook from "../assets/facebook-4 1.svg";
 import instagram from "../assets/instagram-5 1.svg";
 import linkedin from "../assets/linkedin-icon-2 1.svg";
-import HeroBg from "./HeroBG";
+import HeroBg from "./HeroBg";
 
 function Hero() {
   return (
-    <section className="relative min-h-[800px] center bg-[#1A1A21] overflow-hidden">
+    <section className="relative min-h-[830px] center bg-[#1A1A21] overflow-hidden">
       <HeroBg />
-      <div className="text-center container center flex-col space-y-4 z-10 lg:mt-4">
-        <h1 className=" text-3xl md:text-[40px] font-bold">
+      <div className="text-center container center flex-col space-y-5 z-10 lg:mt-10">
+        <h1 className=" text-3xl md:text-6xl font-bold">
           Your Vision, <span className="text-primary">Our Expertise</span>
         </h1>
-        <p className="text-2xl md:text-[40px] max-w-[580px] leading-tight text-center">
+        <p className="text-2xl md:text-5xl max-w-[700px] !leading-[1.2] text-center">
           We provide you with programming solutions and website and application
           design.
         </p>
-        <div className="center gap-5 text-primary !mt-5">
+        <div className="center gap-5 text-primary ">
           <p>Follow us on </p>
           <hr className="h-[2px] border-none w-20 bg-primary" />
           <Link href="/">

@@ -66,7 +66,7 @@ export const FloatingNav = ({
             duration: 0.2,
           }}
           className={cn(
-            "flex max-w-7xl w-[90%] md:min-w-[70vw] fixed z-30 top-5 inset-x-0 mx-auto p-4 !rounded-xl border bg-[#21202A] border-white/10 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-between gap-4",
+            "flex max-w-7xl w-[90%] md:min-w-[70vw] h-20 fixed z-30 top-5 inset-x-0 mx-auto p-4 !rounded-xl border bg-[#21202A] border-white/10 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-between gap-4",
             className
           )}
           style={{
