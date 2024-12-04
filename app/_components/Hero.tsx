@@ -3,12 +3,12 @@ import Image from "next/image";
 import facebook from "../assets/facebook-4 1.svg";
 import instagram from "../assets/instagram-5 1.svg";
 import linkedin from "../assets/linkedin-icon-2 1.svg";
-import HeroBg from "./HeroBg";
+import AnimatedBG from "./AnimatedBG";
 
 function Hero() {
   return (
     <section className="relative min-h-[830px] center bg-[#1A1A21] overflow-hidden">
-      <HeroBg />
+      <AnimatedBG />
       <div className="text-center container center flex-col space-y-5 z-10 lg:mt-10">
         <h1 className=" text-3xl md:text-6xl font-bold">
           Your Vision, <span className="text-primary">Our Expertise</span>
