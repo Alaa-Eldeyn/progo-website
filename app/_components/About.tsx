@@ -22,7 +22,7 @@ function About() {
             designing and developing custom software solutions, including
             websites, mobile applications, and enterprise management systems.
             The team excels in delivering innovative and advanced software
-            solutions tailored to meet clients' needs and help them achieve
+            solutions tailored to meet clients&apos; needs and help them achieve
             their goals efficiently and effectively.
           </p>
           <h2 className=" text-3xl font-bold">

@@ -33,14 +33,14 @@ export const values = [
     id: 1,
     title: "Quality",
     description:
-      "At Progo, we believe that quality is not just a standard but an ingrained philosophy in our daily work. We are committed to providing world-class products and services that meet our customers' aspirations and add value to their businesses.",
+      "At Progo, we believe that quality is not just a standard but an ingrained philosophy in our daily work. We are committed to providing world-class products and services that meet our customers&apos; aspirations and add value to their businesses.",
     icon: qua,
   },
   {
     id: 2,
     title: "Teamwork",
     description:
-      "We believe that teamwork is the cornerstone of success. Through collaboration, we combine expertise and skills to deliver the best solutions and achieve our clients' goals effectively.",
+      "We believe that teamwork is the cornerstone of success. Through collaboration, we combine expertise and skills to deliver the best solutions and achieve our clients&apos; goals effectively.",
     icon: team,
   },
   {
@@ -78,7 +78,7 @@ export const services = [
     id: 3,
     title: "Application Development",
     description:
-      "We offer custom application development services across various platforms, ensuring high performance and an exceptional user experience that meets clients' needs.",
+      "We offer custom application development services across various platforms, ensuring high performance and an exceptional user experience that meets clients&apos; needs.",
     icon: app,
   },
   {
@@ -146,7 +146,7 @@ export const solutions = [
     src: follow,
     title: "Continuous follow-up of the project",
     description:
-      "We provide a tailored system to track your project's progress and offer accurate, up-to-date reports.",
+      "We provide a tailored system to track your project&apos;s progress and offer accurate, up-to-date reports.",
     colSpan: "col-span-full md:col-span-4",
     rowStart: "md:col-start-1 md:row-start-2",
   },
