@@ -10,8 +10,9 @@ function Projects() {
           Where Innovation Meets Excellence, Transforming Ideas into Reality
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-8 mt-5 max-w-7xl">
-          {projects.map(({ image, title, description }) => (
+          {projects.map(({ id, image, title, description }) => (
             <div
+              key={id}
               className={`bg-muted relative min-h-72 2xl:h-96 rounded-xl shadow-lg flex flex-col items-center z-10 border-2 border-transparent hover:border-secondary soft`}
             >
               <div className="w-full h-52 2xl:h-[19rem] rounded-t-xl">
