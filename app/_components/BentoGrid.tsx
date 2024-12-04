@@ -77,8 +77,8 @@ function BentoGrid() {
                 Continuous follow-up of the project
               </h3>
               <p className="text-md sm:text-lg text-[#A9A9A9] max-w-md mx-auto">
-                We provide a tailored system to track your project's progress
-                and offer accurate, up-to-date reports.
+                We provide a tailored system to track your project&apos;s
+                progress and offer accurate, up-to-date reports.
               </p>
             </div>
           </div>
