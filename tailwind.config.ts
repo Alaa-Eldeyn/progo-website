@@ -8,9 +8,23 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        cairo: "Cairo",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        muted: "var(--muted)",
+      },
+      screens: {
+        "2xl": "1400px",
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+        },
       },
     },
   },
