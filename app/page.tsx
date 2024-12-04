@@ -8,19 +8,29 @@ import Services from "./_components/Services";
 import NumberAndDetails from "./_components/NumberAndDetails";
 import BentoGrid from "./_components/BentoGrid";
 import Projects from "./_components/Projects";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <main className="overflow-x-clip">
-      <FloatingNav navItems={navItems} />
-      <Hero />
-      <Companies />
-      <About />
-      <Values />
-      <Services />
-      <NumberAndDetails />
-      <BentoGrid />
-      <Projects />
-    </main>
+    <>
+      <Head>
+        <title>Progo</title>
+        <meta name="description" content="Progo" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Progo" />
+        <link rel="icon" href="/Progo.svg" />
+      </Head>
+      <main className="overflow-x-clip">
+        <FloatingNav navItems={navItems} />
+        <Hero />
+        <Companies />
+        <About />
+        <Values />
+        <Services />
+        <NumberAndDetails />
+        <BentoGrid />
+        <Projects />
+      </main>
+    </>
   );
 }

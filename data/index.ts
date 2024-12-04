@@ -11,13 +11,6 @@ import development from "../app/assets/service-development.svg";
 import experience from "../app/assets/Users.svg";
 import smiley from "../app/assets/Smiley.svg";
 import project from "../app/assets/Briefcase.svg";
-import uiuxSolution from "../app/assets/Frame 1410094139.svg";
-import security from "../app/assets/Frame 1410094140.svg";
-import follow from "../app/assets/Frame 1410094145.svg";
-import achieve from "../app/assets/Frame 1410094141.svg";
-import solution from "../app/assets/Frame 1410094144.svg";
-import effortless from "../app/assets/Frame 1410094146.svg";
-import reliable from "../app/assets/Frame 1410094147.svg";
 
 export const navItems = [
   { name: "Home", link: "" },
@@ -122,65 +115,6 @@ export const numbersAndDetails = [
     number: "20+",
     description: "Completed Projects",
     icon: project,
-  },
-];
-
-export const solutions = [
-  {
-    src: uiuxSolution,
-    title: "Innovative and Unique Design UI&UX",
-    description:
-      "We provide unique and creative designs that reflect your brand’s identity and offer an exceptional user experience.",
-    colSpan: "col-span-full md:col-span-8",
-    rowStart: "",
-  },
-  {
-    src: security,
-    title: "Thorough Security Analysis",
-    description:
-      "We conduct in-depth checks to ensure your data and applications are protected from threats and vulnerabilities.",
-    colSpan: "col-span-full md:col-span-4",
-    rowStart: "md:col-start-9",
-  },
-  {
-    src: follow,
-    title: "Continuous follow-up of the project",
-    description:
-      "We provide a tailored system to track your project&apos;s progress and offer accurate, up-to-date reports.",
-    colSpan: "col-span-full md:col-span-4",
-    rowStart: "md:col-start-1 md:row-start-2",
-  },
-  {
-    src: achieve,
-    title: "Achieve a breakthrough in your project",
-    description:
-      "We help propel your project forward with innovative and advanced solutions, delivering outstanding results.",
-    colSpan: "col-span-full md:col-span-8",
-    rowStart: "md:col-start-5 md:row-start-2",
-  },
-  {
-    src: solution,
-    title: "Scalable Solutions",
-    description:
-      "Our custom solutions are scalable to accommodate growth and increase the capacity to handle a larger number of users or data without impacting the speed or stability of the system.",
-    colSpan: "col-span-full md:col-span-4",
-    rowStart: "md:row-start-3",
-  },
-  {
-    src: effortless,
-    title: "Effortless Maintenance, Maximum Performance",
-    description:
-      "Easily maintainable solutions, which means that the system or application we develop will be able to be flexibly updated and modified without affecting its performance.",
-    colSpan: "col-span-full md:col-span-4",
-    rowStart: "md:col-start-5 md:row-start-3",
-  },
-  {
-    src: reliable,
-    title: "Reliable Solutions, Uninterrupted Performance",
-    description:
-      "Highly reliable solutions, which means that the system or application we provide will always be available to operate continuously without interruptions or errors.",
-    colSpan: "col-span-full md:col-span-4",
-    rowStart: "md:col-start-9 md:row-start-3",
   },
 ];
 

@@ -4,7 +4,7 @@ import about from "../assets/about.svg";
 
 function About() {
   return (
-    <section id="about" className="relative center pt-14 pb-20">
+    <section id="about" className="relative center pt-10 pb-20">
       <div className="absolute left-10 lg:top-96 w-80 z-0 hidden ">
         <Image src={dots} alt="dots" width={500} height={500} />
       </div>
