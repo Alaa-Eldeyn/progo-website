@@ -228,37 +228,37 @@ export const reviews = [
   {
     name: "Jack",
     username: "@jack",
-    body: "I&apos;ve never seen anything like this before. It&apos;s amazing. I love it.",
+    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     img: "https://avatar.vercel.sh/jack",
   },
   {
     name: "Jill",
     username: "@jill",
-    body: "I don&apos;t know what to say. I&apos;m speechless. This is amazing.",
+    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     img: "https://avatar.vercel.sh/jill",
   },
   {
     name: "John",
     username: "@john",
-    body: "I&apos;m at a loss for words. This is amazing. I love it.",
+    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     img: "https://avatar.vercel.sh/john",
   },
   {
     name: "Jane",
     username: "@jane",
-    body: "I&apos;m at a loss for words. This is amazing. I love it.",
+    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     img: "https://avatar.vercel.sh/jane",
   },
   {
     name: "Jenny",
     username: "@jenny",
-    body: "I&apos;m at a loss for words. This is amazing. I love it.",
+    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
     name: "James",
     username: "@james",
-    body: "I&apos;m at a loss for words. This is amazing. I love it.",
+    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     img: "https://avatar.vercel.sh/james",
   },
 ];
