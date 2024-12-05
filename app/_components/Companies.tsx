@@ -14,6 +14,7 @@ function Companies() {
             width={150}
             height={50}
             className="ml-3 sm:ml-10"
+            priority
           />
         ))}
       </Marquee>
