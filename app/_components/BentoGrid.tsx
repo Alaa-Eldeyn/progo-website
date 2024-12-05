@@ -28,7 +28,7 @@ function BentoGrid() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div>
+            <div className="text-center">
               <h3 className="text-2xl font-bold mb-3">
                 Innovative and Unique Design UI&UX
               </h3>
@@ -48,7 +48,7 @@ function BentoGrid() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div>
+            <div className="text-center">
               <h3 className="text-2xl font-bold mb-3">
                 Thorough Security Analysis
               </h3>
@@ -68,7 +68,7 @@ function BentoGrid() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div>
+            <div className="text-center">
               <h3 className="text-2xl font-bold mb-3">
                 Continuous follow-up of the project
               </h3>
@@ -88,7 +88,7 @@ function BentoGrid() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div>
+            <div className="text-center">
               <h3 className="text-2xl font-bold mb-3">
                 Achieve a breakthrough in your project
               </h3>
@@ -108,7 +108,7 @@ function BentoGrid() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div>
+            <div className="text-center">
               <h3 className="text-2xl font-bold mb-3">Scalable Solutions</h3>
               <p className="text-md text-[#A9A9A9] max-w-md mx-auto">
                 Our custom solutions are scalable to accommodate growth and
@@ -127,7 +127,7 @@ function BentoGrid() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div>
+            <div className="text-center">
               <h3 className="text-2xl font-bold mb-3">
                 Effortless Maintenance, Maximum Performance
               </h3>
@@ -148,7 +148,7 @@ function BentoGrid() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div>
+            <div className="text-center">
               <h3 className="text-2xl font-bold mb-3">
                 Reliable Solutions, Uninterrupted Performance
               </h3>

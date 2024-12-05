@@ -11,12 +11,12 @@ function Reviews() {
           subtitle="Your Opinion Matters, Our Success Depends on It"
         />
         <div className="relative mt-10 w-full flex-col overflow-hidden bg-background">
-          <Marquee pauseOnHover className="[--duration:20s]">
+          <Marquee pauseOnHover className="[--duration:40s]">
             {firstRow.map((review) => (
               <ReviewCard key={review.username} {...review} />
             ))}
           </Marquee>
-          <Marquee reverse pauseOnHover className="[--duration:20s]">
+          <Marquee reverse pauseOnHover className="[--duration:40s]">
             {secondRow.map((review) => (
               <ReviewCard key={review.username} {...review} />
             ))}

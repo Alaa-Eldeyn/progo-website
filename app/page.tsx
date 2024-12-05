@@ -14,6 +14,7 @@ import Reviews from "./_components/Reviews";
 import Faq from "./_components/Faq";
 import ContactUs from "./_components/ContactUs";
 import Footer from "./_components/Footer";
+import TeamMembers from "./_components/TeamMembers";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
         <Services />
         <NumberAndDetails />
         <BentoGrid />
+        <TeamMembers />
         <Projects />
         <Roadmap />
         <Reviews />

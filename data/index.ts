@@ -1,3 +1,9 @@
+import inova from "../app/assets/Group 1410094634.svg";
+import alarm from "../app/assets/Group 1410094635.svg";
+import libyaZone from "../app/assets/Vector-2.svg";
+import suq from "../app/assets/Vector-1.svg";
+import sk from "../app/assets/Vector.svg";
+import sec from "../app/assets/white Logo 1 2.svg";
 import exc from "../app/assets/exc.svg";
 import team from "../app/assets/team.svg";
 import res from "../app/assets/res.svg";
@@ -21,21 +27,30 @@ import project7 from "../app/assets/image 18-5.png";
 import project8 from "../app/assets/image 18-8.png";
 import project9 from "../app/assets/image 18-9.png";
 import project10 from "../app/assets/image 18-6.png";
-import project11 from "../app/assets/image 18-7.png";
+import project11 from "../app/assets/image 182.png";
+import project12 from "../app/assets/image 18-12.png";
 import facebook from "@/app/assets/Social.svg";
 import instagram from "@/app/assets/insta.svg";
 import linkedin from "@/app/assets/Social-1.svg";
 import whatsapp from "@/app/assets/Group 1410094688.svg";
+import team1 from "@/app/assets/image 18-12.png";
 
 export const navItems = [
   { name: "Home", link: "" },
-  { name: "Services", link: "#services" },
   { name: "About Us", link: "#about" },
+  { name: "Services", link: "#services" },
   { name: "Portfolio", link: "#portfolio" },
-  { name: "Blog", link: "#blog" },
   { name: "Our Team", link: "#team" },
+  { name: "Contact Us", link: "#contact" },
 ];
-
+export const companies = [
+  { src: sec, alt: "sec" },
+  { src: sk, alt: "sk" },
+  { src: suq, alt: "companies" },
+  { src: libyaZone, alt: "libyaZone" },
+  { src: alarm, alt: "alarm" },
+  { src: inova, alt: "inova" },
+];
 export const values = [
   {
     id: 1,
@@ -115,7 +130,7 @@ export const services = [
 export const numbersAndDetails = [
   {
     id: 1,
-    number: "10+",
+    number: "5+",
     description: "Years of Experience",
     icon: experience,
   },
@@ -133,7 +148,7 @@ export const numbersAndDetails = [
   },
 ];
 
-export const teamMembers = [];
+export const teamMembers = [team1, team1, team1, team1, team1];
 
 export const projects = [
   {
@@ -208,17 +223,17 @@ export const projects = [
   },
   {
     id: 11,
-    title: "Dashboard - Suq Aljameuh",
-    description: "Mobile App",
+    title: "Archive system",
+    description: "Web Application",
     image: project11,
     // fullImg: project11_full,
     isPrivate: true,
   },
   {
     id: 12,
-    title: "Dashboard - Suq Aljameuh",
-    description: "Mobile App",
-    image: project11,
+    title: "Educational platform",
+    description: "Web Application",
+    image: project12,
     // fullImg: project12_full,
     isPrivate: true,
   },
@@ -226,39 +241,39 @@ export const projects = [
 
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Mohamed Ali",
+    username: "CEO of LibyaZone",
+    body: "Honestly, the service was top-notch. The team was professional and helpful, and they didn’t fall short on anything. From the moment we contacted them, they handled everything perfectly, from the website and app design to the smallest details in the dashboard. What really impressed us was how they kept in touch with us continuously and responded to all our inquiries quickly and effectively. The service wasn’t just about executing the project, but even after completion, they were available for any support we needed. In short, what PROGO delivered was beyond our expectations, and we hope for continued collaboration in the future. May God bless you for the excellent service and high professionalism.",
     img: "https://avatar.vercel.sh/jack",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Chef Abdulrahman",
+    username: "CEO of Savory Kitchen",
+    body: "Thank you to the Progo team for the amazing design of the Savory Kitchen logo. We thoroughly enjoyed collaborating with you, and the team was incredibly professional in understanding our vision and turning it into a design that perfectly reflects our brand identity. The logo truly represents what we want our customers to see and adds a professional touch to our project. We are excited to work with you again in the future!",
     img: "https://avatar.vercel.sh/jill",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Duaa Abdullah",
+    username: "CEO of ALARM",
+    body: "Wa Alaikum Assalam.. The work is truly amazing, thank you for your cooperation with us and for bearing with our brief and delayed responses. We were really busy with work and training, so we apologize. But honestly, the work is impressive and our administrative team loved it. We look forward to continued collaboration. This is our second exhibition, and there will be a third, and God willing, with your participation",
     img: "https://avatar.vercel.sh/john",
   },
   {
-    name: "Jane",
-    username: "@jane",
-    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "MR/ AbdelRahman",
+    username: "CEO of suq aljameuh",
+    body: "I would like to thank PROGO for the ’University Market’ project they did for us. The project was an e-commerce platform similar to an open market, along with a dashboard and app. Honestly, the service was excellent, and the team was very cooperative and professional. From the start of the project, they listened to our requirements and understood exactly what we needed. The design was fantastic, and the app was user-friendly. What excited us even more was the continuous support from the team even after the project was delivered. Their work was of the highest quality and precision, and we will definitely continue working with them on our future projects. May God bless them, and they really did an outstanding job",
     img: "https://avatar.vercel.sh/jane",
   },
   {
-    name: "Jenny",
-    username: "@jenny",
-    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Chef Hassan Fouad",
+    username: "pizza brand",
+    body: "Thank you to the Progo team for creating a wonderful logo for Chef Hassan Fouad’s pizza brand. The design beautifully blends the 'HS' initials with wheat, symbolizing the personal touch and authentic ingredients that make the chef’s pizza special. Your creativity and attention to detail exceeded our expectations, and we are very excited about the final result. We look forward to working with you again in the future",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
-    name: "James",
-    username: "@james",
-    body: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Dr.Ali Othman",
+    username: "CEO of Inova",
+    body: "Peace and blessings be upon you all. I would like to express my sincere gratitude, appreciation, and respect to all of you for your support, especially to the brilliant engineer and team leader, “Ayd,” the creative engineer behind the scenes and frontend mastermind, “Alaa,” and last but not least, the powerful backend architect, engineer “Redwan.” I am truly grateful for the quality of execution in the first release and am very pleased with our collaboration on this project. It is an honor to work with you all, and I am looking forward to many future collaborations and developments, as well as new additions to the project. Thank you for your professionalism, great communication, understanding, and the speed at which you respond with innovative and advanced solutions. Best regards, Dr. Ali",
     img: "https://avatar.vercel.sh/james",
   },
 ];

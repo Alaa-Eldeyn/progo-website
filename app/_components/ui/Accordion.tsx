@@ -19,7 +19,7 @@ const Accordion = ({
   return (
     <ShineBorder
       color={["#7D8CB5", "#373D4F"]}
-      className={`soft w-full ${isOpen ? "!bg-primary" : "bg-muted"}`}
+      className={`soft w-full bg-muted`}
     >
       <button
         onClick={() => setOpenIndex(isOpen ? -1 : index)}
@@ -41,11 +41,11 @@ const Accordion = ({
       </button>
       <div
         className={`overflow-hidden rounded-[16px] text-start soft ${
-          isOpen ? "max-h-96 " : "max-h-0"
+          isOpen ? "max-h-[900px] " : "max-h-0"
         }`}
       >
         <div
-          className={`p-4 ${isOpen && "pt-0"} !text-background  rounded-[16px]`}
+          className={`p-4 pt-0 text-gray-300  rounded-[16px]`}
           dangerouslySetInnerHTML={{ __html: content }}
         ></div>
       </div>

@@ -15,7 +15,7 @@ function Faq() {
         <p className="my-2 sm:mt-4 text-lg lg:text-3xl">
           The Heart and Values Driving Our Journey
         </p>
-        <div className="space-y-4">
+        <div className="space-y-4 mt-5">
           {faq.map((item) => (
             <Accordion
               key={item.id}

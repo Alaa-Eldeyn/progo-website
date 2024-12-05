@@ -4,7 +4,7 @@ import SectionTitle from "./ui/SectionTitle";
 
 function Services() {
   return (
-    <section id="services" className="pb-36">
+    <section id="services" className="pb-28">
       <div className="container max-w-7xl">
         <SectionTitle
           title="Our Services"
@@ -24,13 +24,13 @@ function Services() {
                   width={220}
                   height={220}
                   className={`w-full h-full object-cover  ${
-                    i == 1 && "h-[120%]"
+                    i == 1 && "h-[125%]"
                   }`}
                 />
               </div>
-              <div>
+              <div className="text-center">
                 <h3 className="text-2xl font-bold mb-3">{service.title}</h3>
-                <p className="text-md sm:text-lg text-[#A9A9A9] ">
+                <p className="text-md sm:text-lg text-[#A9A9A9] text-justify">
                   {service.description}
                 </p>
               </div>

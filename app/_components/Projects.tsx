@@ -5,7 +5,7 @@ import SectionTitle from "./ui/SectionTitle";
 
 function Projects() {
   return (
-    <section className=" pb-14" id="portfolio">
+    <section className=" pb-20" id="portfolio">
       <div className="container max-w-7xl">
         <SectionTitle
           title="Our Projects"
@@ -17,7 +17,7 @@ function Projects() {
               key={id}
               className={`bg-muted relative rounded-xl group shadow-lg flex flex-col w-full items-center z-10 border-2 border-transparent hover:border-primary soft`}
             >
-              <div className="w-full h-52 lg:h-64 rounded-t-xl relative overflow-hidden">
+              <div className="w-full rounded-t-xl relative overflow-hidden">
                 <Image
                   src={image}
                   alt="preview"

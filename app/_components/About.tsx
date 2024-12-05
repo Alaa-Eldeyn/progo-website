@@ -4,12 +4,12 @@ import about from "../assets/about.svg";
 
 function About() {
   return (
-    <section id="about" className="relative center pt-10 pb-20">
-      <div className="absolute left-10 lg:top-96 w-80 z-0 hidden ">
-        <Image src={dots} alt="dots" width={500} height={500} />
-      </div>
+    <section id="about" className="relative center py-10 md:pb-20">
       <div className="container center gap-14 flex-col lg:flex-row">
-        <div className="z-10">
+        <div className="relative">
+          <div className="absolute -left-1/2 translate-x-1/2 lg:-bottom-16 w-80 -z-10 hidden md:block">
+            <Image src={dots} alt="dots" width={500} height={500} />
+          </div>
           <Image src={about} alt="about" width={600} height={600} />
         </div>
         <div className="space-y-3 flex-1 max-w-md lg:mt-32">
