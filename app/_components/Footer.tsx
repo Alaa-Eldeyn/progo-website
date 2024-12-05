@@ -12,10 +12,10 @@ const Footer = () => {
           <Logo />
           <p className="text-gray-400 text-sm my-6">
             A software development company specializing in providing innovative
-            and customized solutions to meet clients' needs, including designing
-            and developing applications and websites, as well as creating
-            integrated business systems. We strive to deliver quality and
-            efficiency to ensure the success of our clients' projects.
+            and customized solutions to meet clients&apos; needs, including
+            designing and developing applications and websites, as well as
+            creating integrated business systems. We strive to deliver quality
+            and efficiency to ensure the success of our clients&apos; projects.
           </p>
           <div className="flex items-center gap-3">
             <div className="w-10 h-[2px] mb-1.5 bg-white rounded-lg" />

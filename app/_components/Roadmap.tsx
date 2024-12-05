@@ -11,8 +11,8 @@ function Roadmap() {
             Define Needs and Details
           </p>
           <p className="text-[#718096]">
-            Identify the project's needs and outline all necessary details to
-            ensure tasks are executed clearly and systematically, achieving
+            Identify the project&apos;s needs and outline all necessary details
+            to ensure tasks are executed clearly and systematically, achieving
             objectives efficiently.
           </p>
         </div>
@@ -59,8 +59,8 @@ function Roadmap() {
           <p className="text-[#718096]">
             This stage focuses on creating user-friendly and visually appealing
             interfaces. It includes designing layouts, selecting styles, and
-            ensuring the best user experience that aligns with the project's
-            goals.
+            ensuring the best user experience that aligns with the
+            project&apos;s goals.
           </p>
         </div>
       ),
@@ -75,7 +75,7 @@ function Roadmap() {
           <p className="text-[#718096]">
             This phase involves turning designs into functional systems by
             writing clean, efficient, and scalable code to build the
-            application's core features and functionalities.
+            application&apos;s core features and functionalities.
           </p>
         </div>
       ),

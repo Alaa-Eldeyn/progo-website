@@ -228,37 +228,37 @@ export const reviews = [
   {
     name: "Jack",
     username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    body: "I&apos;ve never seen anything like this before. It&apos;s amazing. I love it.",
     img: "https://avatar.vercel.sh/jack",
   },
   {
     name: "Jill",
     username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
+    body: "I don&apos;t know what to say. I&apos;m speechless. This is amazing.",
     img: "https://avatar.vercel.sh/jill",
   },
   {
     name: "John",
     username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "I&apos;m at a loss for words. This is amazing. I love it.",
     img: "https://avatar.vercel.sh/john",
   },
   {
     name: "Jane",
     username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "I&apos;m at a loss for words. This is amazing. I love it.",
     img: "https://avatar.vercel.sh/jane",
   },
   {
     name: "Jenny",
     username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "I&apos;m at a loss for words. This is amazing. I love it.",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
     name: "James",
     username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "I&apos;m at a loss for words. This is amazing. I love it.",
     img: "https://avatar.vercel.sh/james",
   },
 ];
@@ -273,7 +273,7 @@ export const faq = [
   {
     id: 2,
     question: "Can we get the software quickly?",
-    answer: `Yes, you can get your software quickly. Depending on the project's size, we can deliver the Minimum Viable Product (MVP) within a timeframe ranging from one month to four months. Get in touch with us, and we'll meet your needs with professionalism and precision.`,
+    answer: `Yes, you can get your software quickly. Depending on the project&apos;s size, we can deliver the Minimum Viable Product (MVP) within a timeframe ranging from one month to four months. Get in touch with us, and we&apos;ll meet your needs with professionalism and precision.`,
   },
   {
     id: 3,
@@ -283,7 +283,7 @@ export const faq = [
   {
     id: 4,
     question: "What are your policies for post-launch?",
-    answer: `During the first 3 months after software deployment, our team does the following:<br>Responds to your inquiries and user questions, and resolves any user issues (if any).<br>Provides support related to incident management, configuration changes, and updates. After the initial 3-month period, and upon agreement, we offer continuous maintenance and upgrades for your software, in addition to providing on-demand support from Level 1 to Level 3. We have extensive experience in fostering long-term partnerships and ensuring our clients' long-term satisfaction.`,
+    answer: `During the first 3 months after software deployment, our team does the following:<br>Responds to your inquiries and user questions, and resolves any user issues (if any).<br>Provides support related to incident management, configuration changes, and updates. After the initial 3-month period, and upon agreement, we offer continuous maintenance and upgrades for your software, in addition to providing on-demand support from Level 1 to Level 3. We have extensive experience in fostering long-term partnerships and ensuring our clients&apos; long-term satisfaction.`,
   },
   {
     id: 5,
