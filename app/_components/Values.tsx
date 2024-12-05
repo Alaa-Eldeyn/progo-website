@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Values() {
   return (
-    <section id="" className="pt-12 pb-36">
+    <section id="" className="pt-12 pb-24">
       <div className="container center flex-col">
         <h1 className="text-5xl font-bold relative w-fit">
           <span className="relative z-10">Our values</span>
@@ -16,19 +16,19 @@ function Values() {
           {values.map((value) => (
             <div
               key={value.id}
-              className="flex gap-5 p-8 bg-white items-start rounded-xl"
+              className="flex gap-5 p-8 bg-muted items-start rounded-xl"
             >
-              <div className="bg-[#FFEDEF] p-4 rounded-lg w-36 h-20 center">
+              <div className="bg-[#FFEDEF] p-5 rounded-lg w-16 h-16 center">
                 <Image
                   src={value.icon}
                   alt={value.title}
-                  width={60}
-                  height={60}
+                  width={50}
+                  height={50}
                   className="size-10"
                 />
               </div>
-              <div className="space-y-3">
-                <h3 className="text-2xl font-bold text-black">{value.title}</h3>
+              <div className="space-y-3 flex-1">
+                <h3 className="text-2xl font-bold">{value.title}</h3>
                 <p className="text-[#5E5E5E]">{value.description}</p>
               </div>
             </div>

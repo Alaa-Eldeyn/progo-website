@@ -8,17 +8,16 @@ function AnimatedBG() {
       <Image
         src={hero}
         alt="project2"
-        layout="fill"
-        objectFit="cover"
+        fill
+        className="object-cover"
         priority={true}
       />
       <Image
         src={hero2}
         alt="project2"
-        layout="fill"
-        objectFit="cover"
+        fill
         priority={true}
-        className="animate-hero"
+        className="animate-hero object-cover"
       />
     </div>
   );

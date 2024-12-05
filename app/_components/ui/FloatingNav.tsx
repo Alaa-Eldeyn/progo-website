@@ -74,7 +74,7 @@ export const FloatingNav = ({
           }}
         >
           <Logo />
-          <nav className="hidden lg:flex items-center gap-10 lg:ml-12 font-bold">
+          <nav className="hidden lg:flex items-center gap-10 lg:ml-12">
             {navItems.map(
               (
                 navItem: {

@@ -22,6 +22,10 @@ import project8 from "../app/assets/image 18-8.png";
 import project9 from "../app/assets/image 18-9.png";
 import project10 from "../app/assets/image 18-6.png";
 import project11 from "../app/assets/image 18-7.png";
+import facebook from "@/app/assets/Social.svg";
+import instagram from "@/app/assets/insta.svg";
+import linkedin from "@/app/assets/Social-1.svg";
+import whatsapp from "@/app/assets/Group 1410094688.svg";
 
 export const navItems = [
   { name: "Home", link: "" },
@@ -218,4 +222,111 @@ export const projects = [
     // fullImg: project12_full,
     isPrivate: true,
   },
+];
+
+export const reviews = [
+  {
+    name: "Jack",
+    username: "@jack",
+    body: "I've never seen anything like this before. It's amazing. I love it.",
+    img: "https://avatar.vercel.sh/jack",
+  },
+  {
+    name: "Jill",
+    username: "@jill",
+    body: "I don't know what to say. I'm speechless. This is amazing.",
+    img: "https://avatar.vercel.sh/jill",
+  },
+  {
+    name: "John",
+    username: "@john",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "https://avatar.vercel.sh/john",
+  },
+  {
+    name: "Jane",
+    username: "@jane",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "https://avatar.vercel.sh/jane",
+  },
+  {
+    name: "Jenny",
+    username: "@jenny",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "https://avatar.vercel.sh/jenny",
+  },
+  {
+    name: "James",
+    username: "@james",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "https://avatar.vercel.sh/james",
+  },
+];
+
+export const faq = [
+  {
+    id: 1,
+    question:
+      "Can you cover the software development process from start to finish?",
+    answer: `Certainly! This is our core service. We are a specialized software design and development company, capable of providing end-to-end coverage of the software development process. We have a strong team of IT experts, including consultants, engineers, and developers, who are responsible for all aspects of software development, from gathering and deriving requirements to software design, programming, deployment, and support`,
+  },
+  {
+    id: 2,
+    question: "Can we get the software quickly?",
+    answer: `Yes, you can get your software quickly. Depending on the project's size, we can deliver the Minimum Viable Product (MVP) within a timeframe ranging from one month to four months. Get in touch with us, and we'll meet your needs with professionalism and precision.`,
+  },
+  {
+    id: 3,
+    question: "What is the cost of software development?",
+    answer: `The costs of developing medium to large-scale software applications typically range from $2,000 to $15,000 USD. The total cost primarily depends on the number of software features and their complexity, the number of supported core systems (web, mobile, desktop), and the type of development (custom development, low-code development, platform-based development). Additionally, the uniqueness and complexity of user interface design, the number of software integration processes, as well as requirements for availability, security, and performance, also play a significant role in determining the development cost.<br> You can request a project cost estimate for free from Progo or learn more details about software development costs in our recently published guide.`,
+  },
+  {
+    id: 4,
+    question: "What are your policies for post-launch?",
+    answer: `During the first 3 months after software deployment, our team does the following:<br>Responds to your inquiries and user questions, and resolves any user issues (if any).<br>Provides support related to incident management, configuration changes, and updates. After the initial 3-month period, and upon agreement, we offer continuous maintenance and upgrades for your software, in addition to providing on-demand support from Level 1 to Level 3. We have extensive experience in fostering long-term partnerships and ensuring our clients' long-term satisfaction.`,
+  },
+  {
+    id: 5,
+    question: "How do you ensure the quality of the software you provide?",
+    answer: `Ensuring the Quality of Our Software We ensure the quality of the software we provide through several measures and practices, including:<li><strong>Adherence to standard development practices:</strong> We adhere to international development standards and best practices in the software development industry.</li><li><strong>Quality testing:</strong> We conduct comprehensive software testing using a variety of software testing techniques to ensure its correct performance according to the required specifications.</li><li><strong>Code review:</strong> Our team regularly reviews the written code to ensure its quality and compliance with best practices and standards.</li><li><strong>Adoption of the development lifecycle:</strong> We follow regular and organized development processes and establish clear plans for project management and monitoring.</li><li><strong>Continuous improvement:</strong> We continue to provide continuous improvements to the software based on customer feedback and user experiences.</li><li><strong>Commitment to security:</strong> We ensure the security of the software through secure development practices and continuous security testing.</li>    Through these measures and practices, we strive to deliver high-quality software that meets the needs of our customers and exceeds their expectations.`,
+  },
+  {
+    id: 6,
+    question:
+      "What is the average time required to create a complete profile for my company?",
+    answer: `The average time required to create your profile depends on several factors, including the size of your company and the specific market requirements relevant to your business. We provide detailed estimates based on initial consultation with our clients.`,
+  },
+];
+
+export const socialMedia = [
+  {
+    id: 1,
+    name: "facebook",
+    link: "https://www.facebook.com/progo.eg/",
+    icon: facebook,
+  },
+  {
+    id: 2,
+    name: "instagram",
+    link: "https://www.instagram.com/progo.eg/",
+    icon: instagram,
+  },
+  {
+    id: 3,
+    name: "whatsapp",
+    link: "https://wa.me/+201099402670",
+    icon: whatsapp,
+  },
+  {
+    id: 4,
+    name: "linkedin",
+    link: "https://www.linkedin.com/company/progo-soft/",
+    icon: linkedin,
+  },
+  // {
+  //   id: 5,
+  //   name: "behance",
+  //   link: "https://www.behance.net/progo_eg",
+  //   icon: behance,
+  // },
 ];

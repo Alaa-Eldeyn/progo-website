@@ -9,6 +9,11 @@ import NumberAndDetails from "./_components/NumberAndDetails";
 import BentoGrid from "./_components/BentoGrid";
 import Projects from "./_components/Projects";
 import Head from "next/head";
+import Roadmap from "./_components/Roadmap";
+import Reviews from "./_components/Reviews";
+import Faq from "./_components/Faq";
+import ContactUs from "./_components/ContactUs";
+import Footer from "./_components/Footer";
 
 export default function Home() {
   return (
@@ -30,6 +35,11 @@ export default function Home() {
         <NumberAndDetails />
         <BentoGrid />
         <Projects />
+        <Roadmap />
+        <Reviews />
+        <Faq />
+        <ContactUs />
+        <Footer />
       </main>
     </>
   );
