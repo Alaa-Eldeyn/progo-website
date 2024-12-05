@@ -24,8 +24,9 @@ function Services() {
                   width={220}
                   height={220}
                   className={`w-full h-full object-cover  ${
-                    i == 1 && "h-[125%]"
-                  }`}
+                    i == 1 && "!h-[125%]"
+                    }`}
+                  priority
                 />
               </div>
               <div className="text-center">

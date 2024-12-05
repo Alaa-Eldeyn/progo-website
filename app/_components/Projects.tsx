@@ -33,7 +33,7 @@ function Projects() {
                         height={15}
                         className="soft"
                       />
-                      <span>Project</span>
+                      <span>Private</span>
                     </button>
                   </div>
                 )}

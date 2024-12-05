@@ -10,13 +10,13 @@ function AnimatedBG() {
         alt="project2"
         fill
         className="object-cover"
-        priority={true}
+        priority
       />
       <Image
         src={hero2}
         alt="project2"
         fill
-        priority={true}
+        priority
         className="animate-hero object-cover"
       />
     </div>
