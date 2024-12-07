@@ -10,6 +10,8 @@ function Reviews() {
           title="What client says"
           subtitle="Your Opinion Matters, Our Success Depends on It"
         />
+      </div>
+      <div className="container">
         <div className="relative mt-10 w-full flex-col overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:40s]">
             {firstRow.map((review) => (

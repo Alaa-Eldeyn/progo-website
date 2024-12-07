@@ -18,7 +18,7 @@ const Accordion = ({
 
   return (
     <div className={`soft w-full bg-muted relative rounded-3xl`}>
-      <BorderBeam size={150} duration={12} delay={0.1 * index} />
+      <BorderBeam size={150} duration={12} delay={0} />
       <button
         onClick={() => setOpenIndex(isOpen ? -1 : index)}
         className="flex justify-between items-center gap-3 w-full p-5 rounded-3xl text-start font-medium text-white outline-none"
@@ -43,7 +43,7 @@ const Accordion = ({
         }`}
       >
         <div
-          className={`p-5 !pt-0 text-gray-300  rounded-[16px]`}
+          className={`p-5 !pt-0 text-gray-300 rounded-[16px]`}
           dangerouslySetInnerHTML={{ __html: content }}
         ></div>
       </div>
