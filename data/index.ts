@@ -275,6 +275,49 @@ export const projects = [
   },
 ];
 
+export   const roadmapSteps = [
+  {
+    title: "#1 Define Needs and Details",
+    description:
+      "Identify the project's needs and outline all necessary details to ensure tasks are executed clearly and systematically, achieving objectives efficiently.",
+  },
+  {
+    title: "#2 Research and study the project",
+    description:
+      "This phase involves gathering and analyzing information to understand all aspects of the project, define its goals, and identify the requirements needed to achieve it efficiently and effectively.",
+  },
+  {
+    title: "#3 Start planning and defining tasks",
+    description:
+      "In this phase, a comprehensive project plan is developed, outlining the key tasks and assigning them clearly to ensure organized workflow and timely achievement of objectives.",
+  },
+  {
+    title: "#4 Start Design (UI/UX)",
+    description:
+      "This stage focuses on creating user-friendly and visually appealing interfaces. It includes designing layouts, selecting styles, and ensuring the best user experience that aligns with the project's goals.",
+  },
+  {
+    title: "#5 Start Programming",
+    description:
+      "This phase involves turning designs into functional systems by writing clean, efficient, and scalable code to build the application's core features and functionalities.",
+  },
+  {
+    title: "#6 Problem solving and testing stages",
+    description:
+      "In this phase, the project undergoes thorough testing to identify and resolve potential bugs and issues. The goal is to ensure the system operates efficiently and reliably before launch.",
+  },
+  {
+    title: "#7 Testing the Project for Vulnerabilities",
+    description:
+      "This phase involves a detailed examination of the system to identify and address security vulnerabilities, ensuring data protection and system stability.",
+  },
+  {
+    title: "#8 Project launch and management",
+    description:
+      "After the project is complete, it needs to be deployed and managed properly. This phase includes monitoring, feedback collection, and continuous improvement of the system.",
+  },
+];
+
 export const reviews = [
   {
     name: "Mohamed Ali",
