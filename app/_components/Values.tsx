@@ -29,7 +29,7 @@ function Values() {
               </div>
               <div className="space-y-3 flex-1">
                 <h3 className="text-2xl font-bold">{value.title}</h3>
-                <p className="text-gray-400">{value.description}</p>
+                <p className="text-gray-400 line-clamp-[8] lg:line-clamp-3">{value.description}</p>
               </div>
             </div>
           ))}

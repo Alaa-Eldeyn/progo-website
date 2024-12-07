@@ -6,7 +6,7 @@ import { faq } from "@/data";
 function Faq() {
   const [openIndex, setOpenIndex] = useState<number>(-1);
   return (
-    <div className="max-w-2xl mx-auto mt-10 space-y-4 center flex-col pb-24">
+    <div className="max-w-4xl mx-auto mt-10 space-y-4 center flex-col pb-24">
       <div className="container max-w-7xl text-center">
         <h1 className="text-3xl sm:text-5xl font-bold relative w-fit mx-auto">
           <span className="relative z-10">Frequently asked questions</span>
@@ -15,7 +15,7 @@ function Faq() {
         <p className="my-2 sm:mt-4 text-lg lg:text-3xl">
           The Heart and Values Driving Our Journey
         </p>
-        <div className="space-y-4 mt-5">
+        <div className="space-y-4 mt-5 lg:mt-10">
           {faq.map((item) => (
             <Accordion
               key={item.id}

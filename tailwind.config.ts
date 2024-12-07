@@ -11,7 +11,7 @@ export default {
       animation: {
         hero: "hero 5s infinite linear",
         marquee: "marquee var(--duration) linear infinite",
-        shine: "shine var(--duration) infinite linear",
+        "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
       },
       keyframes: {
         hero: {
@@ -24,15 +24,9 @@ export default {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(calc(-100% - var(--gap)))" },
         },
-        shine: {
-          "0%": {
-            "background-position": "0% 0%",
-          },
-          "50%": {
-            "background-position": "100% 100%",
-          },
-          to: {
-            "background-position": "0% 0%",
+        "border-beam": {
+          "100%": {
+            "offset-distance": "100%",
           },
         },
       },

@@ -1,48 +1,62 @@
-import inova from "../app/assets/Group 1410094634.svg";
-import alarm from "../app/assets/Group 1410094635.svg";
-import libyaZone from "../app/assets/Vector-2.svg";
-import suq from "../app/assets/Vector-1.svg";
-import sk from "../app/assets/Vector.svg";
-import sec from "../app/assets/white Logo 1 2.svg";
-import exc from "../app/assets/exc.svg";
-import team from "../app/assets/team.svg";
-import res from "../app/assets/res.svg";
-import qua from "../app/assets/qua.svg";
-import uiux from "../app/assets/service-uiux.svg";
-import web from "../app/assets/service-web.svg";
-import app from "../app/assets/service-app.svg";
-import testing from "../app/assets/service-testing.svg";
-import management from "../app/assets/service-management.svg";
-import development from "../app/assets/service-development.svg";
-import experience from "../app/assets/Users.svg";
-import smiley from "../app/assets/Smiley.svg";
-import project from "../app/assets/Briefcase.svg";
-import project1 from "../app/assets/image 18.png";
-import project2 from "../app/assets/image 17.png";
-import project3 from "../app/assets/image 18-1.png";
-import project4 from "../app/assets/image 18-2.png";
-import project5 from "../app/assets/image 18-3.png";
-import project6 from "../app/assets/image 18-4.png";
-import project7 from "../app/assets/image 18-5.png";
-import project8 from "../app/assets/image 18-8.png";
-import project9 from "../app/assets/image 18-9.png";
-import project10 from "../app/assets/image 18-6.png";
-import project11 from "../app/assets/image 182.png";
-import project12 from "../app/assets/image 18-12.png";
+import inova from "@/app/assets/Group 1410094634.svg";
+import alarm from "@/app/assets/Group 1410094635.svg";
+import libyaZone from "@/app/assets/Vector-2.svg";
+import suq from "@/app/assets/Vector-1.svg";
+import sk from "@/app/assets/Vector.svg";
+import sec from "@/app/assets/white Logo 1 2.svg";
+import exc from "@/app/assets/exc.svg";
+import team from "@/app/assets/team.svg";
+import res from "@/app/assets/res.svg";
+import qua from "@/app/assets/qua.svg";
+import uiux from "@/app/assets/service-uiux.svg";
+import web from "@/app/assets/service-web.svg";
+import app from "@/app/assets/service-app.svg";
+import testing from "@/app/assets/service-testing.svg";
+import management from "@/app/assets/service-management.svg";
+import development from "@/app/assets/service-development.svg";
+import experience from "@/app/assets/Users.svg";
+import smiley from "@/app/assets/Smiley.svg";
+import project from "@/app/assets/Briefcase.svg";
+import project1 from "@/app/assets/image 18.png";
+import project1_full from "@/app/assets/HR system.jpg";
+import project2 from "@/app/assets/image 17.png";
+import project2_full from "@/app/assets/Restaurant Website.jpg";
+import project3 from "@/app/assets/image 18-1.png";
+import project3_full from "@/app/assets/Hi Community.jpg";
+import project4 from "@/app/assets/image 18-2.png";
+import project4_full from "@/app/assets/Suq  Aljameuh APP.jpg";
+import project5 from "@/app/assets/image 18-3.png";
+import project5_full from "@/app/assets/Suq  Aljameuh APP.jpg";
+import project6 from "@/app/assets/image 18-4.png";
+import project6_full from "@/app/assets/Dashboard  LibyaZon.jpg";
+import project7 from "@/app/assets/image 18-5.png";
+import project7_full from "@/app/assets/LibyaZon.jpg";
+import project8 from "@/app/assets/image 18-8.png";
+import project8_full from "@/app/assets/LibyaZon.jpg";
+import project9 from "@/app/assets/image 18-9.png";
+import project9_full from "@/app/assets/Dashboard Suq  Aljameuh.jpg";
+import project10 from "@/app/assets/image 18-6.png";
+import project10_full from "@/app/assets/Alarm  - Pharmacies system.jpg";
+import project11 from "@/app/assets/image 182.png";
+import project12 from "@/app/assets/image 18-12.png";
 import facebook from "@/app/assets/Social.svg";
 import instagram from "@/app/assets/insta.svg";
 import linkedin from "@/app/assets/Social-1.svg";
 import whatsapp from "@/app/assets/Group 1410094688.svg";
-import team1 from "@/app/assets/image 18-12.png";
+import alaa from "@/app/assets/alaa.png";
+import eid from "@/app/assets/eid.png";
+import radwan from "@/app/assets/radwan.png";
+import hosam from "@/app/assets/hosam.png";
 
 export const navItems = [
   { name: "Home", link: "" },
   { name: "About Us", link: "#about" },
   { name: "Services", link: "#services" },
-  { name: "Portfolio", link: "#portfolio" },
   { name: "Our Team", link: "#team" },
+  { name: "Portfolio", link: "#portfolio" },
   { name: "Contact Us", link: "#contact" },
 ];
+
 export const companies = [
   { src: sec, alt: "sec" },
   { src: sk, alt: "sk" },
@@ -51,19 +65,20 @@ export const companies = [
   { src: alarm, alt: "alarm" },
   { src: inova, alt: "inova" },
 ];
+
 export const values = [
   {
     id: 1,
     title: "Quality",
     description:
-      "At Progo, we believe that quality is not just a standard but an ingrained philosophy in our daily work. We are committed to providing world-class products and services that meet our customers&apos; aspirations and add value to their businesses.",
+      "At Progo, we believe that quality is not just a standard but an ingrained philosophy in our daily work. We are committed to providing world-class products and services that meet our customers aspirations and add value to their businesses.",
     icon: qua,
   },
   {
     id: 2,
     title: "Teamwork",
     description:
-      "We believe that teamwork is the cornerstone of success. Through collaboration, we combine expertise and skills to deliver the best solutions and achieve our clients&apos; goals effectively.",
+      "We believe that teamwork is the cornerstone of success. Through collaboration, we combine expertise and skills to deliver the best solutions and achieve our clients goals effectively.",
     icon: team,
   },
   {
@@ -101,7 +116,7 @@ export const services = [
     id: 3,
     title: "Application Development",
     description:
-      "We offer custom application development services across various platforms, ensuring high performance and an exceptional user experience that meets clients&apos; needs.",
+      "We offer custom application development services across various platforms, ensuring high performance and an exceptional user experience that meets clients needs.",
     icon: app,
   },
   {
@@ -148,7 +163,28 @@ export const numbersAndDetails = [
   },
 ];
 
-export const teamMembers = [team1, team1, team1, team1, team1];
+export const teamMembers = [
+  {
+    image: eid,
+    name: "Eid Fathy",
+    role: "Software engineer",
+  },
+  {
+    image: radwan,
+    name: "Radwan Gaber",
+    role: "Backend Developer",
+  },
+  {
+    image: alaa,
+    name: "Alaa Eldeyn",
+    role: "Frontend Developer",
+  },
+  {
+    image: hosam,
+    name: "Hossam Said",
+    role: "UI/UX Design",
+  },
+];
 
 export const projects = [
   {
@@ -156,70 +192,70 @@ export const projects = [
     title: "Dashboard - HR system",
     description: "Web Application",
     image: project1,
-    // fullImg: project1_full,
+    fullImg: project1_full,
   },
   {
     id: 2,
     title: "Restaurant Mobile App",
     description: "Mobile App",
     image: project2,
-    // fullImg: project2_full,
+    fullImg: project2_full,
   },
   {
     id: 3,
     title: "Hi Community",
     description: "UI/UX Design",
     image: project3,
-    // fullImg: project3_full,
+    fullImg: project3_full,
   },
   {
     id: 4,
     title: "E-commerce",
     description: "Mobile App",
     image: project4,
-    // fullImg: project4_full,
+    fullImg: project4_full,
   },
   {
     id: 5,
     title: "internship opportunity - AI",
     description: "Mobile App",
     image: project5,
-    // fullImg: project5_full,
+    fullImg: project5_full,
   },
   {
     id: 6,
     title: "Dashboard - LibyaZon",
     description: "Web application",
     image: project6,
-    // fullImg: project6_full,
+    fullImg: project6_full,
   },
   {
     id: 7,
     title: "Online store - Web",
     description: "Web Application",
     image: project7,
-    // fullImg: project7_full,
+    fullImg: project7_full,
   },
   {
     id: 8,
     title: "Online store - App",
     description: "Mobile App",
     image: project8,
-    // fullImg: project8_full,
+    fullImg: project8_full,
   },
   {
     id: 9,
     title: "Dashboard - E-commerce ",
     description: "Mobile App",
     image: project9,
-    // fullImg: project9_full,
+    fullImg: project9_full,
   },
   {
     id: 10,
     title: "Alarm - Pharmacies system",
     description: "Web Application",
     image: project10,
-    // fullImg: project10_full,
+    fullImg: project10_full,
   },
   {
     id: 11,
@@ -288,7 +324,7 @@ export const faq = [
   {
     id: 2,
     question: "Can we get the software quickly?",
-    answer: `Yes, you can get your software quickly. Depending on the project&apos;s size, we can deliver the Minimum Viable Product (MVP) within a timeframe ranging from one month to four months. Get in touch with us, and we&apos;ll meet your needs with professionalism and precision.`,
+    answer: `Yes, you can get your software quickly. Depending on the projects size, we can deliver the Minimum Viable Product (MVP) within a time frame ranging from one month to four months. Get in touch with us, and we will meet your needs with professionalism and precision.`,
   },
   {
     id: 3,
@@ -298,7 +334,7 @@ export const faq = [
   {
     id: 4,
     question: "What are your policies for post-launch?",
-    answer: `During the first 3 months after software deployment, our team does the following:<br>Responds to your inquiries and user questions, and resolves any user issues (if any).<br>Provides support related to incident management, configuration changes, and updates. After the initial 3-month period, and upon agreement, we offer continuous maintenance and upgrades for your software, in addition to providing on-demand support from Level 1 to Level 3. We have extensive experience in fostering long-term partnerships and ensuring our clients&apos; long-term satisfaction.`,
+    answer: `During the first 3 months after software deployment, our team does the following:<br>Responds to your inquiries and user questions, and resolves any user issues (if any).<br>Provides support related to incident management, configuration changes, and updates. After the initial 3-month period, and upon agreement, we offer continuous maintenance and upgrades for your software, in addition to providing on-demand support from Level 1 to Level 3. We have extensive experience in fostering long-term partnerships and ensuring our clients long-term satisfaction.`,
   },
   {
     id: 5,

@@ -7,14 +7,14 @@ function AnimatedBG() {
     <div className="w-screen h-screen absolute top-0 z-0">
       <Image
         src={hero}
-        alt="project2"
+        alt="Background"
         fill
         className="object-cover"
         priority
       />
       <Image
         src={hero2}
-        alt="project2"
+        alt="Background"
         fill
         priority
         className="animate-hero object-cover"

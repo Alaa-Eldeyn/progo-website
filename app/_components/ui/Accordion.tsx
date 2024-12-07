@@ -1,5 +1,5 @@
 "use client";
-import { ShineBorder } from "./ShineBorder";
+import { BorderBeam } from "./BorderBeam";
 
 const Accordion = ({
   title,
@@ -17,17 +17,15 @@ const Accordion = ({
   const isOpen = openIndex === index;
 
   return (
-    <ShineBorder
-      color={["#7D8CB5", "#373D4F"]}
-      className={`soft w-full bg-muted`}
-    >
+    <div className={`soft w-full bg-muted relative rounded-3xl`}>
+      <BorderBeam size={150} duration={12} delay={0.1 * index} />
       <button
         onClick={() => setOpenIndex(isOpen ? -1 : index)}
-        className="flex justify-between items-center w-full p-4 text-start font-medium text-white outline-none"
+        className="flex justify-between items-center gap-3 w-full p-5 rounded-3xl text-start font-medium text-white outline-none"
       >
-        <span>{title}</span>
+        <span className="font-bold text-lg">{title}</span>
         <svg
-          className={`w-6 h-6 transform transition-transform ${
+          className={`!w-10 !h-10 max-w-5 transform transition-transform ${
             isOpen ? "rotate-180" : ""
           }`}
           fill="none"
@@ -45,11 +43,11 @@ const Accordion = ({
         }`}
       >
         <div
-          className={`p-4 pt-0 text-gray-300  rounded-[16px]`}
+          className={`p-5 !pt-0 text-gray-300  rounded-[16px]`}
           dangerouslySetInnerHTML={{ __html: content }}
         ></div>
       </div>
-    </ShineBorder>
+    </div>
   );
 };
 

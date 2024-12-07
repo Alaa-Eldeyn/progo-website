@@ -7,7 +7,7 @@ import AnimatedBG from "./AnimatedBG";
 
 function Hero() {
   return (
-    <section className="relative min-h-[830px] center bg-[#1A1A21] overflow-hidden">
+    <section className="relative min-h-[700px] max-h-[830px] h-screen center bg-[#1A1A21] overflow-hidden">
       <AnimatedBG />
       <div className="text-center container center flex-col space-y-5 z-10 lg:mt-10">
         <h1 className=" text-3xl md:text-6xl font-bold">

@@ -25,13 +25,13 @@ function Services() {
                   height={220}
                   className={`w-full h-full object-cover  ${
                     i == 1 && "!h-[125%]"
-                    }`}
+                  }`}
                   priority
                 />
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-3">{service.title}</h3>
-                <p className="text-md sm:text-lg text-[#A9A9A9] text-justify">
+                <p className="text-md sm:text-lg text-[#A9A9A9]">
                   {service.description}
                 </p>
               </div>

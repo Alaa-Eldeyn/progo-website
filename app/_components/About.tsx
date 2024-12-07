@@ -12,12 +12,12 @@ function About() {
           </div>
           <Image src={about} alt="about" width={600} height={600} priority />
         </div>
-        <div className="space-y-3 flex-1 max-w-md lg:mt-32">
+        <div className="space-y-4 flex-1 max-w-lg lg:mt-32">
           <p className=" bg-[rgba(234,64,84,0.1)] px-4 py-1 rounded-full text-primary w-fit">
             About Us
           </p>
           <h1 className="text-4xl font-bold">Freelance team software</h1>
-          <p className="text-[#C8C8C8] text-justify">
+          <p className="text-[#C8C8C8] leading-relaxed">
             Progo is a team of experienced software engineers specializing in
             designing and developing custom software solutions, including
             websites, mobile applications, and enterprise management systems.
