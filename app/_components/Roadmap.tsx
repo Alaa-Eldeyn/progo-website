@@ -41,6 +41,9 @@ function Roadmap() {
                   className={`space-y-4 max-w-md lg:max-w-lg bg-muted p-7 rounded-xl`}
                 >
                   <h2 className="text-xl lg:text-2xl font-bold">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-tr from-[#242B37] to-[#EA4054]">
+                      #{index + 1}{" "}
+                    </span>
                     {step.title}
                   </h2>
                   <p className=" text-[#718096]">{step.description}</p>
