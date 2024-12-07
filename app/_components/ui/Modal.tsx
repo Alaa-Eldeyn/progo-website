@@ -34,7 +34,7 @@ export function Modal({
             onClick={(e) => e.stopPropagation()}
           >
             <div className="backdrop-blur-sm bg-black/30 left-0 w-full h-24 absolute top-0 center">
-              <div className="flex items-center justify-between py-4 md:w-[70%] gap-5 z-50 px-8 bg-muted rounded-2xl h-20">
+              <div className="flex items-center justify-between py-4 w-[80%] md:w-[70%] gap-5 z-50 px-8 bg-muted rounded-2xl h-20">
                 <div className="hidden md:block">
                   <Logo />
                 </div>

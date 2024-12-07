@@ -7,6 +7,7 @@ import { teamMembers } from "@/data";
 import { useRef } from "react";
 import left from "@/app/assets/left.svg";
 import right from "@/app/assets/right.svg";
+import Image from "next/image";
 
 function Members() {
   const swiperRef = useRef<SwiperClass | null>(null);
@@ -38,10 +39,12 @@ function Members() {
         {teamMembers.map((member, index) => (
           <SwiperSlide key={index}>
             <div className="flex flex-col h-full">
-              <img
+              <Image
                 src={member.image.src}
                 alt={member.name}
                 className="rounded-lg mb-4"
+                width={400}
+                height={400}
               />
               <h3 className="text-white text-lg font-bold">{member.name}</h3>
               <p className="text-[#C8C8C8] text-sm">{member.role}</p>
@@ -51,10 +54,10 @@ function Members() {
       </Swiper>
       <div className="flex justify-center mt-5 gap-5 lg:hidden">
         <button onClick={() => swiperRef.current?.slidePrev()} className="w-14">
-          <img src={left.src} alt="Left" />
+          <Image src={left} alt="Left" width={100} height={100} />
         </button>
         <button onClick={() => swiperRef.current?.slideNext()} className="w-14">
-          <img src={right.src} alt="Right" />
+          <Image src={right.src} alt="Right" width={100} height={100} />
         </button>
       </div>
     </div>

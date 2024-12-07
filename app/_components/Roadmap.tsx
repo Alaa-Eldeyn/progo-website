@@ -7,7 +7,7 @@ import { TracingBeam } from "./ui/TrackingBeam";
 function Roadmap() {
   return (
     <>
-      <div className="container max-w-7xl mx-auto my-10">
+      <div className="container max-w-7xl mx-auto my-5 lg:my-10">
         <SectionTitle
           title="The project timeline"
           subtitle="Your Roadmap to Success, Step by Step"
@@ -15,25 +15,25 @@ function Roadmap() {
       </div>
       <section className="relative text-white">
         <TracingBeam>
-          <div className="container max-w-7xl mx-auto gap-5 flex flex-col items-center md:items-start py-16">
+          <div className="container max-w-7xl mx-auto gap-5 flex flex-col items-center md:items-start py-0 lg:py-16">
             <Image
               src={squares}
               width={400}
               height={1080}
               alt="Roadmap"
-              className="absolute top-0 left-1/2 -translate-x-1/2 transform z-0"
+              className="absolute top-0 left-1/2 -translate-x-1/2 z-0"
             />
             <Image
               src={squares}
               width={400}
               height={1080}
               alt="Roadmap"
-              className="absolute bottom-0 left-1/2 -translate-x-1/2 transform z-0"
+              className="absolute bottom-[77px] left-1/2 -translate-x-1/2 z-0"
             />
             {roadmapSteps.map((step, index) => (
               <div
                 key={index}
-                className={`max-w-md lg:max-w-lg z-10 border border-neutral-800 hover:border-primary soft rounded-xl
+                className={`max-w-md lg:max-w-lg z-10 border border-neutral-800 hover:border-primary group soft rounded-xl
             ${index % 2 === 0 ? "md:self-end" : ""}    
             `}
               >
@@ -41,7 +41,7 @@ function Roadmap() {
                   className={`space-y-4 max-w-md lg:max-w-lg bg-muted p-7 rounded-xl`}
                 >
                   <h2 className="text-xl lg:text-2xl font-bold">
-                    <span className="bg-clip-text text-transparent bg-gradient-to-tr from-[#242B37] to-[#EA4054]">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-tr from-white to-white soft group-hover:from-[#242B37] group-hover:to-[#EA4054]">
                       #{index + 1}{" "}
                     </span>
                     {step.title}

@@ -19,7 +19,7 @@ function ContactForm() {
     register,
     handleSubmit,
     getValues,
-    formState: { errors, isSubmitting },
+    formState: { errors, isSubmitting, isSubmitSuccessful, isSubmitted },
   } = useForm({ resolver: zodResolver(contactSchema) });
   const sendMessage = async () => {
     try {
@@ -144,21 +144,26 @@ function ContactForm() {
           </span>
         )}
       </div>
-      <button
-        type="button"
-        disabled={isSubmitting}
-        onClick={handleSubmit(sendMessage)}
-        className="w-fit bg-primary group gap-2 soft text-white py-4 px-6 center rounded-lg hover:bg-red-600 focus:outline-none focus:ring-1 focus:ring-primary"
-      >
-        {isSubmitting ? "Sending..." : "Send Message"}
-        <Image
-          src={arrowRight}
-          alt="send message"
-          width={25}
-          height={25}
-          className="group-hover:translate-x-2 soft"
-        />
-      </button>
+      <div className="flex items-center gap-5">
+        <button
+          type="button"
+          disabled={isSubmitting}
+          onClick={handleSubmit(sendMessage)}
+          className="w-fit bg-primary group gap-2 soft text-white py-4 px-6 center rounded-lg focus:outline-none focus:ring-1 focus:ring-primary"
+        >
+          {isSubmitting ? "Sending..." : "Send Message"}
+          <Image
+            src={arrowRight}
+            alt="send message"
+            width={25}
+            height={25}
+            className="group-hover:translate-x-2 soft"
+          />
+        </button>
+        {isSubmitSuccessful && isSubmitted && (
+          <span className="text-green-500">Message sent successfully!</span>
+        )}
+      </div>
     </form>
   );
 }
