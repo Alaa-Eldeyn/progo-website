@@ -35,7 +35,7 @@ export const TracingBeam = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div ref={ref} className="relative">
-      <div className="absolute left-1/2 -translate-x-1/2 top-0 z-10 hidden lg:block">
+      <div className="absolute left-1/2 rtl:h-[95%] -translate-x-1/2 top-0 z-10 hidden lg:block">
         <svg
           viewBox={`0 0 20 ${svgHeight}`}
           width="20"

@@ -1,7 +1,9 @@
 import { numbersAndDetails } from "@/data";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 function NumberAndDetails() {
+  const t = useTranslations();
   return (
     <section className="bg-muted py-12 px-8 min-h-48 center">
       <div className="container center gap-16 flex-wrap">
@@ -13,7 +15,7 @@ function NumberAndDetails() {
             <div>
               <h2 className="text-lg font-bold">{item.number}</h2>
               <p className="uppercase text-sm text-[#A9A9A9]">
-                {item.description}
+                {t(item.description)}
               </p>
             </div>
           </div>

@@ -13,6 +13,7 @@ import Image from "next/image";
 import SideBar from "../SideBar";
 import bars from "../../assets/bars.svg";
 import global from "../../assets/Global.svg";
+import { useLocale, useTranslations } from "next-intl";
 
 export const FloatingNav = ({
   navItems,
@@ -43,6 +44,8 @@ export const FloatingNav = ({
       }
     }
   });
+  const locale = useLocale();
+  const t = useTranslations();
 
   return (
     <>
@@ -74,7 +77,7 @@ export const FloatingNav = ({
           }}
         >
           <Logo />
-          <nav className="hidden lg:flex items-center gap-10 lg:ml-12">
+          <nav className="hidden lg:flex items-center gap-10 lg:ms-12">
             {navItems.map(
               (
                 navItem: {
@@ -92,21 +95,24 @@ export const FloatingNav = ({
                   )}
                   onClick={() => setActive(navItem.name)}
                 >
-                  <span>{navItem.name}</span>
+                  <span>{t(navItem.name)}</span>
                 </Link>
               )
             )}
           </nav>
-          <div className="hidden lg:flex items-center space-x-4">
-            <button className="flex items-center gap-1">
+          <div className="hidden lg:flex items-center gap-4">
+            <Link
+              href={locale === "en" ? "/ar" : "/en"}
+              className="flex items-center gap-1"
+            >
               <Image src={global} width={20} height={20} alt="language"></Image>
-              Arabic
-            </button>
+              {locale === "en" ? "Arabic" : "الانجليزية"}
+            </Link>
             <Link
               href={"#contact"}
               className="text-sm text-white bg-primary rounded-lg px-4 py-2"
             >
-              Contact Us
+              {t("Contact Us")}
             </Link>
           </div>
           <div

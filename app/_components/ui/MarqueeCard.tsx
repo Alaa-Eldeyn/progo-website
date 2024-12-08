@@ -1,5 +1,6 @@
 import { reviews } from "@/data";
 import { cn } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 
 export const firstRow = reviews.slice(0, reviews.length / 2);
 export const secondRow = reviews.slice(reviews.length / 2);
@@ -15,6 +16,7 @@ export const ReviewCard = ({
   username: string;
   body: string;
 }) => {
+  const t = useTranslations();
   return (
     <figure
       className={cn(
@@ -31,7 +33,9 @@ export const ReviewCard = ({
           <p className="text-xs font-medium dark:text-white/40">{username}</p>
         </div>
       </div>
-      <blockquote className="mt-4 leading-relaxed text-[16px] line-clamp-[7]">{body}</blockquote>
+      <blockquote className="mt-4 leading-relaxed text-[16px] line-clamp-[7]">
+        {t(body)}
+      </blockquote>
     </figure>
   );
 };

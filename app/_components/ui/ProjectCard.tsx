@@ -3,6 +3,8 @@ import Image, { StaticImageData } from "next/image";
 import lock from "@/app/assets/private.svg";
 import { useState } from "react";
 import { Modal } from "./Modal";
+import { useTranslations } from "next-intl";
+
 
 function ProjectCard(project: {
   image: string | StaticImageData;
@@ -11,6 +13,8 @@ function ProjectCard(project: {
   description: string;
   isPrivate: boolean;
 }) {
+    const t = useTranslations();
+
   const { image, fullImg, title, description, isPrivate } = project;
   const [isOpen, setIsOpen] = useState(false);
   const [modalData, setModalData] = useState<{
@@ -33,7 +37,7 @@ function ProjectCard(project: {
         onClick={() => {
           setModalData({
             imageSrc: fullImg,
-            title: title,
+            title: t(title),
           });
           if (isPrivate) return;
           setIsOpen(true);
@@ -56,17 +60,17 @@ function ProjectCard(project: {
                   height={15}
                   className="soft"
                 />
-                <span>Private</span>
+                <span>{t("Private")}</span>
               </button>
             </div>
           )}
         </div>
         <div className="text-start w-full p-4">
-          <h4 className="text-xl 2xl:text-2xl font-semibold text-white tracking-wide group-hover:text-primary soft">
-            {title}
+          <h4 className="text-xl font-semibold text-white tracking-wide group-hover:text-primary soft">
+            {t(title)}
           </h4>
           <p className="text-[10px] 2xl:text-[13px] text-[#868490] soft group-hover:text-white">
-            {description}
+            {t(description)}
           </p>
         </div>
       </div>

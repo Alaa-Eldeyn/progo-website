@@ -3,8 +3,10 @@ import squares from "@/app/assets/gridsq.svg";
 import SectionTitle from "./ui/SectionTitle";
 import { roadmapSteps } from "@/data";
 import { TracingBeam } from "./ui/TrackingBeam";
+import { useTranslations } from "next-intl";
 
 function Roadmap() {
+  const t = useTranslations();
   return (
     <>
       <div className="container max-w-7xl mx-auto my-5 lg:my-10">
@@ -44,9 +46,9 @@ function Roadmap() {
                     <span className="bg-clip-text text-transparent bg-gradient-to-tr from-white to-white soft group-hover:from-[#242B37] group-hover:to-[#EA4054]">
                       #{index + 1}{" "}
                     </span>
-                    {step.title}
+                    {t(step.title)}
                   </h2>
-                  <p className=" text-[#718096]">{step.description}</p>
+                  <p className=" text-[#718096]">{t(step.description)}</p>
                 </div>
               </div>
             ))}

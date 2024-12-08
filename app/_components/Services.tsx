@@ -1,8 +1,10 @@
 import { services } from "@/data";
 import Image from "next/image";
 import SectionTitle from "./ui/SectionTitle";
+import { useTranslations } from "next-intl";
 
 function Services() {
+  const t = useTranslations();
   return (
     <section id="services" className="pb-28">
       <div className="container max-w-7xl">
@@ -30,9 +32,9 @@ function Services() {
                 />
               </div>
               <div className="text-center">
-                <h3 className="text-2xl font-bold mb-3">{service.title}</h3>
+                <h3 className="text-2xl font-bold mb-3">{t(service.title)}</h3>
                 <p className="text-md sm:text-lg text-[#A9A9A9]">
-                  {service.description}
+                  {t(service.description)}
                 </p>
               </div>
             </div>

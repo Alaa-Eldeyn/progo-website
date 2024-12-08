@@ -8,9 +8,12 @@ import { useRef } from "react";
 import left from "@/app/assets/left.svg";
 import right from "@/app/assets/right.svg";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+
 
 function Members() {
   const swiperRef = useRef<SwiperClass | null>(null);
+  const t = useTranslations();
 
   return (
     <div className="container">
@@ -38,16 +41,16 @@ function Members() {
       >
         {teamMembers.map((member, index) => (
           <SwiperSlide key={index}>
-            <div className="flex flex-col h-full">
+            <div className="flex flex-col ">
               <Image
                 src={member.image.src}
-                alt={member.name}
-                className="rounded-lg mb-4"
+                alt={t(member.name)}
+                className="rounded-lg mb-4 object-cover max-h-[370px]"
                 width={400}
-                height={400}
+                height={450}
               />
-              <h3 className="text-white text-lg font-bold">{member.name}</h3>
-              <p className="text-[#C8C8C8] text-sm">{member.role}</p>
+              <h3 className="text-white text-lg font-bold">{t(member.name)}</h3>
+              <p className="text-[#C8C8C8] text-sm">{t(member.role)}</p>
             </div>
           </SwiperSlide>
         ))}

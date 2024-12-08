@@ -1,9 +1,12 @@
-import { socialMedia } from "@/data";
+import { navItems, services, socialMedia } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "./Logo";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations();
+
   return (
     <footer className="container rounded-3xl bg-muted text-white py-10 md:px-20 mb-10">
       <div className=" max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8">
@@ -11,17 +14,15 @@ const Footer = () => {
         <div className="md:w-1/2">
           <Logo />
           <p className="text-gray-400 text-sm my-6">
-            A software development company specializing in providing innovative
-            and customized solutions to meet clients&apos; needs, including
-            designing and developing applications and websites, as well as
-            creating integrated business systems. We strive to deliver quality
-            and efficiency to ensure the success of our clients&apos; projects.
+            {t(
+              "A software development company specializing in providing innovative and customized solutions to meet clients' needs, including designing and developing applications and websites, as well as creating integrated business systems, We strive to deliver quality and efficiency to ensure the success of our clients' projects"
+            )}
           </p>
           <div className="flex items-center gap-3">
             <div className="w-10 h-[2px] mb-1.5 bg-white rounded-lg" />
-            <p className="font-semibold mb-4">Connect with us :</p>
+            <p className="font-semibold mb-4">{t("Connect with us :")}</p>
           </div>
-          <div className="flex justify-start space-x-4">
+          <div className="flex justify-start gap-4">
             {socialMedia.map((item) => (
               <Link
                 key={item.id}
@@ -36,44 +37,41 @@ const Footer = () => {
         {/* Right Section */}
         <div className="md:w-1/2 flex flex-col md:flex-row gap-5">
           <div className="flex-1 flex flex-col space-y-4">
-            <h3 className="text-lg font-semibold mb-">Site Links</h3>
+            <h3 className="text-lg font-semibold mb-">{t("Site Links")}</h3>
             <ul className="text-gray-400 space-y-2">
-              <li className="hover:text-white">Home</li>
-              <li className="hover:text-white">Services</li>
-              <li className="hover:text-white">About us</li>
-              <li className="hover:text-white">Portfolio</li>
-              <li className="hover:text-white">Blog</li>
-              <li className="hover:text-white">Our Team</li>
-              <li className="hover:text-white">Contact</li>
+              {navItems.map((item) => (
+                <li key={item.name} className="hover:text-white">
+                  <Link href={item.link}>{t(item.name)}</Link>
+                </li>
+              ))}
             </ul>
           </div>
 
           <div className="flex-1 flex flex-col space-y-4">
-            <h3 className="text-lg font-semibold mb-">Services</h3>
+            <h3 className="text-lg font-semibold mb-">{t("Services")}</h3>
             <ul className="text-gray-400 space-y-2">
-              <li className="hover:text-white">UI/UX Design</li>
-              <li className="hover:text-white">Website Development</li>
-              <li className="hover:text-white">Application Development</li>
-              <li className="hover:text-white">Project Management</li>
-              <li className="hover:text-white">Website & App Testing</li>
-              <li className="hover:text-white">Project Development</li>
+              {services.map((item) => (
+                <li key={item.title} className="hover:text-white">
+                  {t(item.title)}
+                </li>
+              ))}
             </ul>
           </div>
 
           <div className="flex-1 flex flex-col space-y-4">
-            <h3 className="text-lg font-semibold mb-">Product</h3>
+            <h3 className="text-lg font-semibold mb-">{t("Product")}</h3>
             <ul className="text-gray-400 space-y-2">
-              <li className="hover:text-white">Figma</li>
-              <li className="hover:text-white">Adobe</li>
-              <li className="hover:text-white">Dribbble</li>
-              <li className="hover:text-white">Behance</li>
+              <li className="hover:text-white">{t("Figma")}</li>
+              <li className="hover:text-white">{t("Adobe")}</li>
+              <li className="hover:text-white">{t("Dribbble")}</li>
+              <li className="hover:text-white">{t("Behance")}</li>
             </ul>
           </div>
         </div>
       </div>
       <hr className="border-none bg-gray-400 h-[1px] my-5" />
       <div className="center">
-        &copy; {new Date().getFullYear()} - Progo team
+        &copy; {new Date().getFullYear()} - {t("Progo team")}
       </div>
     </footer>
   );

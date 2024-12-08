@@ -12,7 +12,7 @@ function Reviews() {
         />
       </div>
       <div className="container">
-        <div className="relative mt-10 w-full flex-col overflow-hidden bg-background">
+        <div dir="ltr" className="relative mt-10 w-full flex-col overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:40s]">
             {firstRow.map((review) => (
               <ReviewCard key={review.username} {...review} />
