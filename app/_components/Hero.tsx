@@ -24,10 +24,10 @@ function Hero() {
         <div className="center gap-5 text-primary ">
           <p>{t("Follow us on")} </p>
           <hr className="h-[2px] border-none w-20 bg-primary" />
-          <Link href="https://www.facebook.com/3lwa88">
+          <Link href="https://www.facebook.com/progo.eg/" target="_blank">
             <Image src={facebook} width={20} height={20} alt="Facebook"></Image>
           </Link>
-          <Link href="https://www.instagram.com/3lwa88/">
+          <Link href="https://www.instagram.com/progo.eg/" target="_blank">
             <Image
               src={instagram}
               width={20}
@@ -35,7 +35,10 @@ function Hero() {
               alt="Instagram"
             ></Image>
           </Link>
-          <Link href="https://www.linkedin.com/in/alaa-eldeyn/">
+          <Link
+            href="https://www.linkedin.com/company/progosoft-eg"
+            target="_blank"
+          >
             <Image src={linkedin} width={20} height={20} alt="Linkedin"></Image>
           </Link>
         </div>

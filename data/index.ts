@@ -26,13 +26,13 @@ import project3_full from "@/app/assets/Hi Community.jpg";
 import project4 from "@/app/assets/image 18-2.png";
 import project4_full from "@/app/assets/Suq  Aljameuh APP.jpg";
 import project5 from "@/app/assets/image 18-3.png";
-import project5_full from "@/app/assets/Suq  Aljameuh APP.jpg";
+// import project5_full from "@/app/assets/Suq  Aljameuh APP.jpg";
 import project6 from "@/app/assets/image 18-4.png";
 import project6_full from "@/app/assets/Dashboard  LibyaZon.jpg";
 import project7 from "@/app/assets/image 18-5.png";
 import project7_full from "@/app/assets/LibyaZon.jpg";
 import project8 from "@/app/assets/image 18-8.png";
-import project8_full from "@/app/assets/LibyaZon.jpg";
+// import project8_full from "@/app/assets/LibyaZon.jpg";
 import project9 from "@/app/assets/image 18-9.png";
 import project9_full from "@/app/assets/Dashboard Suq  Aljameuh.jpg";
 import project10 from "@/app/assets/image 18-6.png";
@@ -220,7 +220,7 @@ export const projects = [
     title: "internship opportunity - AI",
     description: "Mobile App",
     image: project5,
-    fullImg: project5_full,
+    fullImg: project5,
   },
   {
     id: 6,
@@ -241,7 +241,7 @@ export const projects = [
     title: "Online store - App",
     description: "Mobile App",
     image: project8,
-    fullImg: project8_full,
+    fullImg: project8,
   },
   {
     id: 9,
@@ -408,13 +408,13 @@ export const socialMedia = [
   {
     id: 3,
     name: "whatsapp",
-    link: "https://wa.me/+201099402670",
+    link: "https://wa.me/+201004894245",
     icon: whatsapp,
   },
   {
     id: 4,
     name: "linkedin",
-    link: "https://www.linkedin.com/company/progo-soft/",
+    link: "https://www.linkedin.com/company/progosoft-eg",
     icon: linkedin,
   },
   // {

@@ -27,7 +27,7 @@ const Footer = () => {
               <Link
                 key={item.id}
                 href={item.link}
-                className="hover:bg-black/10 soft size-10 center p-3 bg-black/40 rounded-xl"
+                className="hover:!bg-primary soft size-10 center p-3 bg-black/40 rounded-xl"
               >
                 <Image src={item.icon} alt={item.name} width={25} height={25} />
               </Link>
