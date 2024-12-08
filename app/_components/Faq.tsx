@@ -25,7 +25,7 @@ function Faq() {
               key={item.id}
               index={item.id}
               title={t(item.question)}
-              content={t(item.answer)}
+              content={t.raw(item.answer)}
               openIndex={openIndex}
               setOpenIndex={setOpenIndex}
             />
