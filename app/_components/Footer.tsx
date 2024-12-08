@@ -8,7 +8,7 @@ const Footer = () => {
   const t = useTranslations();
 
   return (
-    <footer className="container rounded-3xl bg-muted text-white py-10 md:px-20 mb-10">
+    <footer className="container rounded-3xl bg-muted text-white py-10 md:px-20 sm:mb-10">
       <div className=" max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8">
         {/* Left Section */}
         <div className="md:w-1/2">

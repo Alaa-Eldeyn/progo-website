@@ -1,10 +1,10 @@
 "use client";
-
 import { navItems } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
 import close from "../assets/Close_round.svg";
 import global from "../assets/Global.svg";
+import { useLocale, useTranslations } from "next-intl";
 
 function SideBar({
   isOpen,
@@ -17,6 +17,9 @@ function SideBar({
   active: string;
   setActive: (active: string) => void;
 }) {
+  const locale = useLocale();
+  const t = useTranslations();
+
   return (
     <>
       <div
@@ -51,7 +54,7 @@ function SideBar({
                 setIsOpen(false);
               }}
             >
-              <span>{navItem.name}</span>
+              <span>{t(navItem.name)}</span>
             </Link>
           ))}
           <hr className="bg-[#21202A] mt-3 border-none h-0.5" />
@@ -59,12 +62,19 @@ function SideBar({
           <Link
             href={"#contact"}
             className="text-lg text-white bg-primary rounded-lg px-4 py-3 text-center"
+            onClick={() => setIsOpen(false)}
           >
-            Contact Us
+            {t("Contact Us")}
           </Link>
           <button className="center gap-1 text-white hover:text-primary py-3 px-6 rounded-lg w-full bg-[#21202A] soft text-lg !cursor-pointer ">
-            <Image src={global} width={20} height={20} alt="language"></Image>
-            Arabic
+            <Link
+              href={locale === "en" ? "/ar" : "/en"}
+              className="flex items-center gap-1"
+              onClick={() => setIsOpen(false)}
+            >
+              <Image src={global} width={20} height={20} alt="language"></Image>
+              {locale === "en" ? "Arabic" : "الانجليزية"}
+            </Link>
           </button>
         </nav>
       </div>

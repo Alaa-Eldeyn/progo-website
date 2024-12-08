@@ -45,7 +45,7 @@ function Members() {
               <Image
                 src={member.image.src}
                 alt={t(member.name)}
-                className="rounded-lg mb-4 object-cover max-h-[370px]"
+                className="rounded-lg mb-4 object-cover md:max-h-[370px]"
                 width={400}
                 height={450}
               />
@@ -55,7 +55,7 @@ function Members() {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="flex justify-center mt-5 gap-5 lg:hidden">
+      <div className="flex justify-center mt-5 gap-5 lg:hidden rtl:flex-row-reverse">
         <button onClick={() => swiperRef.current?.slidePrev()} className="w-14">
           <Image src={left} alt="Left" width={100} height={100} />
         </button>
