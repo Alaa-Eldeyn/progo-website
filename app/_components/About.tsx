@@ -1,6 +1,6 @@
 import Image from "next/image";
 import dots from "../assets/dots.svg";
-import about from "../assets/about.svg";
+import about from "../assets/about.png";
 import { useTranslations } from "next-intl";
 
 function About() {

@@ -34,7 +34,7 @@ const cairo = localFont({
 export const metadata: Metadata = {
   title: "Progo",
   description: "Software development agency",
-  icons: "/P_letter.svg",
+  icons: "@/public/p_letter.svg",
 };
 
 export default async function RootLayout({
@@ -50,9 +50,7 @@ export default async function RootLayout({
   }
   const messages = await getMessages();
   return (
-    <html lang={locale}
-      dir={locale === "ar" ? "rtl" : "ltr"}
-    >
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <body className={`${cairo.variable} font-cairo antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {children}
