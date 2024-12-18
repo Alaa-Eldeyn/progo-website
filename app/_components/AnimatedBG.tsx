@@ -1,6 +1,6 @@
 import Image from "next/image";
-import hero from "@/app/assets/hero.webp";
-import hero2 from "@/app/assets/hero2.webp";
+import hero from "@/app/assets/hero.svg";
+import hero2 from "@/app/assets/hero2.svg";
 
 function AnimatedBG() {
   return (
