@@ -34,7 +34,7 @@ const cairo = localFont({
 export const metadata: Metadata = {
   title: "Progo",
   description: "Software development agency",
-  icons: "@/public/p_letter.svg",
+  icons: "/icon.ico",
 };
 
 export default async function RootLayout({

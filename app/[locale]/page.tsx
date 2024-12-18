@@ -14,10 +14,31 @@ import Faq from "../_components/Faq";
 import ContactUs from "../_components/ContactUs";
 import Footer from "../_components/Footer";
 import TeamMembers from "../_components/TeamMembers";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/images/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/images/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/images/favicon-16x16.png"
+        />
+      </Head>
       <main className="overflow-x-clip">
         <FloatingNav navItems={navItems} />
         <Hero />
