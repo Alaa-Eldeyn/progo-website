@@ -51,16 +51,19 @@ export default async function RootLayout({
   const messages = await getMessages();
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
-      <meta>
+      <head>
         <meta property="og:title" content="progo" />
-        <meta property="og:description" content="progo eg | Software development agency" />
+        <meta
+          property="og:description"
+          content="progo eg | Software development agency"
+        />
         <meta property="og:url" content="https://progoeg.com" />
         <meta property="og:site_name" content="progo" />
         <meta property="og:locale" content="ar" />
         <meta property="og:locale:alternate" content="en" />
         <meta property="og:image" content="/icon.ico" />
         <meta property="og:type" content="website" />
-      </meta>
+      </head>
       <body className={`${cairo.variable} font-cairo antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {children}
