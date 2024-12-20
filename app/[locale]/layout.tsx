@@ -34,7 +34,7 @@ const cairo = localFont({
 export const metadata: Metadata = {
   title: "Progo",
   description: "progo eg | Software development agency",
-  // icons: "./favicon.ico",
+  icons: "/favicon.ico",
 };
 
 export default async function RootLayout({
@@ -63,10 +63,9 @@ export default async function RootLayout({
         <meta property="og:locale:alternate" content="en" />
         <meta
           property="og:image"
-          content="../assets/favicon.ico"
+          content="/favicon.ico"
         />
         <meta property="og:type" content="website" />
-        <link rel="icon" href="../assets/favicon.ico" />
       </head>
       <body className={`${cairo.variable} font-cairo antialiased`}>
         <NextIntlClientProvider messages={messages}>
