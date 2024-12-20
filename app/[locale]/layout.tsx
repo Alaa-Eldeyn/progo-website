@@ -34,7 +34,7 @@ const cairo = localFont({
 export const metadata: Metadata = {
   title: "Progo",
   description: "progo eg | Software development agency",
-  icons: "/favicon.ico",
+  icons: "../assets/favicon.ico",
 };
 
 export default async function RootLayout({
@@ -64,7 +64,7 @@ export default async function RootLayout({
         <meta
           property="og:image"
           itemType="image/x-icon"
-          content="/favicon.ico"
+          content="../assets/favicon.ico"
         />
         <meta property="og:type" content="website" />
       </head>
