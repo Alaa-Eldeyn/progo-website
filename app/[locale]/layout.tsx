@@ -63,7 +63,7 @@ export default async function RootLayout({
         <meta property="og:locale:alternate" content="en" />
         <meta
           property="og:image"
-          content="https://progoeg.com/assets/favicon.ico"
+          content="../assets/favicon.ico"
         />
         <meta property="og:type" content="website" />
         <link rel="icon" href="../assets/favicon.ico" />
