@@ -63,7 +63,7 @@ export default async function RootLayout({
         <meta property="og:locale:alternate" content="en" />
         <meta
           property="og:image"
-          content="/favicon.ico"
+          content="../assets/favicon.png"
         />
         <meta property="og:type" content="website" />
       </head>
