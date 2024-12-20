@@ -63,7 +63,7 @@ export default async function RootLayout({
         <meta property="og:locale:alternate" content="en" />
         <meta
           property="og:image"
-          content="https://drive.google.com/file/d/1mHm_0oaE7Cn3iSpa8OFn_TDtCl1lYY--/view?usp=sharing"
+          content="https://res.cloudinary.com/djb7wcswg/image/upload/v1734716345/elld5jlpyo4jvgvv5r7p.png"
         />
         <meta property="og:type" content="website" />
       </head>
