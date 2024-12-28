@@ -17,6 +17,7 @@ function AnimatedBG() {
         alt="Background"
         fill
         className="animate-hero object-cover"
+        priority
       />
     </div>
   );
