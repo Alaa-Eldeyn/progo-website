@@ -174,16 +174,16 @@ export const teamMembers = [
     name: "Alaa Eldeyn",
     role: "Frontend Developer",
   },
-  {
-    image: radwan,
-    name: "Radwan Gaber",
-    role: "Backend Developer",
-  },
-  {
-    image: hosam,
-    name: "Hossam Said",
-    role: "UI/UX Designer",
-  },
+  // {
+  //   image: radwan,
+  //   name: "Radwan Gaber",
+  //   role: "Backend Developer",
+  // },
+  // {
+  //   image: hosam,
+  //   name: "Hossam Said",
+  //   role: "UI/UX Designer",
+  // },
 ];
 
 export const projects = [
