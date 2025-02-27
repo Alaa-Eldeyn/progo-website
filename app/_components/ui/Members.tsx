@@ -28,12 +28,12 @@ function Members() {
           640: {
             slidesPerView: 2,
           },
-          // 768: {
-          //   slidesPerView: 3,
-          // },
-          // 1024: {
-          //   slidesPerView: 4,
-          // },
+          768: {
+            slidesPerView: 3,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
         }}
         loop={true}
         onSwiper={(swiper) => (swiperRef.current = swiper)}
@@ -41,7 +41,7 @@ function Members() {
       >
         {teamMembers.map((member, index) => (
           <SwiperSlide key={index}>
-            <div className="flex flex-col text-center">
+            <div className="flex flex-col">
               <Image
                 src={member.image.src}
                 alt={t(member.name)}
